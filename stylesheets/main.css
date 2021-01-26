@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #202020;
+  color: white;
+  height: 75px
+}
+
+header h1 {
+  float: left;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+header a {
+  background-color: yellowgreen;
+  color: white;
+  padding: 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right
+}
+
+nav {
+  background-color: #1c5695;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li{
+  display: inline;
+  padding: 100px;
+}
+
+#mainpic h1 {
+  background: url('../images/1.jpg');
+  background-size: cover;
+  height: 500px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+#description p {
+  background-color: #202020;
+  color: white;
+  padding: 20px 30px;
+}
+
+#landmarks {
+  background-color: azure;
+}
+
+.photos {
+  display: inline-block;
+  width: 30%;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  vertical-align: top;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+}
+
+.photos img {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #202020;
+  color: azure;
+  font-size: 15px;
+  padding: 30px;
+}
